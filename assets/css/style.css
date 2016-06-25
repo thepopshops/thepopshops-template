@@ -7040,6 +7040,10 @@ select.form-control {
     margin: 0;
     padding: 14px 30px;
 }
+
+.cover label {
+    color: #fff;
+}
 .cover-image {
     background-image: url("../img/tmp/cover.jpg");
     background-position: center center;
@@ -7749,18 +7753,7 @@ select.form-control {
         width: 100%;
     }
 }
-.footer-top-right {
-    float: right;
-    width: 48%;
-}
-.footer-top-right a {
-    margin: 0 0 0 10px;
-}
 @media (max-width: 767px) {
-    .footer-top-right {
-        float: none;
-        width: 100%;
-    }
 }
 .footer-inner .nav-item:after {
     color: rgba(255, 255, 255, 0.4);
@@ -7798,6 +7791,17 @@ select.form-control {
         float: none;
         width: 100%;
     }
+}
+
+.footer-inner h5 a {
+    color: #fff;
+    font-weight: 300;
+font-size: 15px;
+}
+
+.footer-inner h5 a:hover {
+    color: #d61b62;
+    text-decoration: none;
 }
 /**
  * 18. Widgets
@@ -10613,4 +10617,8 @@ h2.page-title {
     letter-spacing: 2px;
     margin-bottom: 2rem;
     font-size:2rem;
+}
+
+.no-pad {
+    padding:0;
 }

@@ -226,8 +226,10 @@ $(document).ready(function() {
 	 */
 	 $('.cover-carousel').owlCarousel({
 	 	items: 1,
-	 	nav: true,
-	 	navText: ['<img src="assets/img/lnr-chevron-left.svg" alt="">', '<img src="assets/img/lnr-chevron-right.svg" alt="">']
+	 	navigation: true,
+		 autoHeight:true,
+		 singleItem: true,
+	 	navigationText: ['<img src="assets/img/lnr-chevron-left.svg" alt="">', '<img src="assets/img/lnr-chevron-right.svg" alt="">']
 	 });
 
 	/**
