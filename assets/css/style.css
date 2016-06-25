@@ -5988,6 +5988,10 @@ hr {
     font-size: 2em;
     font-weight: 600;
 }
+
+.header-logo img {
+    max-width: 175px;
+}
 .header-logo:hover {
     color: #323232;
     text-decoration: none;
